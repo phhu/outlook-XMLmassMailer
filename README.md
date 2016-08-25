@@ -1,6 +1,6 @@
 This is an extension for Microsoft Outlook which allows mass mailing to be done based on data in an XML file.
 
-This is useful particularly for handling mass mailing of custom attachments.
+This is useful particularly for handling mass mailing of custom attachments. It can also handle adding Oultook signatures to messages when creating the emails. 
 
 ![Mass mailer form](/img/massMailerForm.png)
 
