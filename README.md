@@ -36,14 +36,16 @@ XML files look like something like this...
 		<cc>somebody@company.com</cc>
 		<bcc>somebody@company.com</bcc>
 		<subject>somebody@company.com</subject>
-		<body>Some text here</body>
+		<body>Some plain text here</body>
 	</row>
 	<row>
 		<to>somebody@company.com</to>
 		<cc>somebody@company.com</cc>
 		<bcc>somebody@company.com</bcc>
-		<subject>somebody@company.com</subject>
-		<htmlbody><p>Some text here</p></htmlbody>
+		<subject>Test message with HTML body and attachments.</subject>
+		<htmlbody><p>Some text here in <b>HTML</b></p></htmlbody>
+		<attachment>C:\temp\somefile.txt</attachment>
+		<attachment>C:\temp\anotherfile.txt</attachment>
 	</row>	
 </root>
 ```
