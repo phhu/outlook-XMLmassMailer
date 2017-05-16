@@ -49,3 +49,5 @@ XML files look like something like this...
 	</row>	
 </root>
 ```
+htmlbody can be included escaped or unescaped: generally unescaped is easier, though XML conventions would need to be followed (closing brackets etc).
+
